@@ -1,10 +1,10 @@
 # MySQL Practice 📊
 
-This repository contains my hands-on practice work with MySQL (MariaDB via XAMPP).
+This repository contains my hands-on practice work with **MySQL (MariaDB via XAMPP)**.
 
-I created this repo to understand how relational databases work in real scenarios and to strengthen my SQL fundamentals through structured practice.
+I created this repo to understand how relational databases work in real scenarios and to strengthen my SQL fundamentals through structured and consistent practice.
 
-All queries are written while learning and revising concepts, keeping them clean, organised, and interview-friendly.
+All queries are written during learning and revision, keeping them clean, organised, and interview-friendly.
 
 ---
 
@@ -40,11 +40,17 @@ All queries are written while learning and revising concepts, keeping them clean
 - GROUP BY
 - Year extraction from DATE
 
+### 🔴 Keys & Constraints
+- PRIMARY KEY
+- AUTO_INCREMENT (Identity concept in MySQL)
+- FOREIGN KEY
+- Referential Integrity
+
 ---
 
 ## 📂 Project Files
 
-### 1️⃣ students_database.sql
+### 1️⃣ `students_database.sql`
 Includes:
 - Database creation (`ds_practice`)
 - Students table
@@ -56,7 +62,7 @@ Includes:
 
 ---
 
-### 2️⃣ products_table_operations.sql
+### 2️⃣ `products_table_operations.sql`
 Includes:
 - Products table creation
 - Insert operations
@@ -71,18 +77,26 @@ Includes:
 
 ---
 
-## 🧠 Purpose of This Repository
+### 3️⃣ `primary_foreign_keys.sql`
+Includes:
+- Primary Key implementation
+- AUTO_INCREMENT usage
+- Foreign Key relationship
+- Parent–Child table design
+- Basic relational integrity practice
 
-- Build strong SQL fundamentals
-- Practice full table lifecycle operations
-- Understand real-world database workflow
-- Maintain organised SQL revision material
-- Prepare for interviews
+---
+
+## 🧠 Purpose of This Repository
+- Build strong SQL fundamentals  
+- Practice full table lifecycle operations  
+- Understand real-world relational database workflow  
+- Maintain organised SQL revision material  
+- Prepare for interviews  
 
 ---
 
 ## 🛠 Tech Used
-
 - MySQL
 - MariaDB (via XAMPP)
 - SQL
@@ -90,6 +104,5 @@ Includes:
 ---
 
 ## 👨‍💻 Author
-
-Yugam Sachdeva  
+**Yugam Sachdeva**  
 B.Tech Student | Aspiring Data Analyst
