@@ -1,58 +1,95 @@
 # MySQL Practice 📊
 
-This repository contains my hands-on practice work with **MySQL**.  
-I created this repo to understand how databases work in real scenarios and to strengthen my SQL fundamentals through continuous practice.
+This repository contains my hands-on practice work with MySQL (MariaDB via XAMPP).
 
-All queries in this repository are written while learning and revising concepts, keeping them simple, clear, and practical.
+I created this repo to understand how relational databases work in real scenarios and to strengthen my SQL fundamentals through structured practice.
+
+All queries are written while learning and revising concepts, keeping them clean, organised, and interview-friendly.
 
 ---
 
 ## 📌 What I Practiced
-- Creating databases and tables
-- Inserting records into tables
-- Selecting and filtering data using `WHERE`
-- Sorting data using `ORDER BY`
-- Using aggregate functions (`AVG`, `SUM`)
-- Grouping data with `GROUP BY`
-- Working with real-like student data
+
+### 🟢 Database & Table Management (DDL)
+- Creating databases
+- Creating tables
+- Renaming tables
+- Modifying column data types
+- Dropping tables
+- Copying table structure
+- Creating backup tables
+
+### 🔵 Data Manipulation (DML)
+- Inserting records
+- Updating records
+- Deleting specific records
+- Deleting all records
+- TRUNCATE vs DELETE
+
+### 🟣 Querying Data
+- SELECT statements
+- WHERE conditions
+- ORDER BY sorting
+- Filtering using LIKE
+- Using aliases
+
+### 🟠 Aggregate Functions
+- COUNT()
+- SUM()
+- AVG()
+- GROUP BY
+- Year extraction from DATE
 
 ---
 
-## 📂 Project Overview
+## 📂 Project Files
 
-### `students_database.sql`
-This SQL file includes:
+### 1️⃣ students_database.sql
+Includes:
 - Database creation (`ds_practice`)
-- Student table structure
-- Sample student records
-- Queries for:
-  - Filtering students by marks
-  - Sorting students by performance
-  - Calculating average marks
-  - City-wise performance analysis
+- Students table
+- Sample student data
+- Filtering by marks
+- Sorting performance
+- Average calculation
+- City-wise grouping
 
-This file represents a **basic student database system**, commonly used in beginner-level SQL practice and interviews.
+---
+
+### 2️⃣ products_table_operations.sql
+Includes:
+- Products table creation
+- Insert operations
+- Conditional queries
+- Aggregate functions
+- Update operations
+- Delete operations
+- TRUNCATE
+- Table backup using `CREATE TABLE AS`
+- Rename table
+- Modify column data type
 
 ---
 
 ## 🧠 Purpose of This Repository
-- To build a strong foundation in SQL
-- To practice database design and querying
-- To maintain organised SQL learning material
-- To revise concepts quickly before interviews
+
+- Build strong SQL fundamentals
+- Practice full table lifecycle operations
+- Understand real-world database workflow
+- Maintain organised SQL revision material
+- Prepare for interviews
 
 ---
 
 ## 🛠 Tech Used
-- MySQL (MariaDB via XAMPP)
+
+- MySQL
+- MariaDB (via XAMPP)
 - SQL
 
 ---
 
 ## 👨‍💻 Author
-**Yugam Sachdeva**  
-B.Tech Student | Aspiring Data Analyst  
 
----
-
-> More SQL concepts like JOINs, subqueries, and constraints will be added as I continue learning.
+Yugam Sachdeva  
+B.Tech Student | Aspiring Data Analyst
